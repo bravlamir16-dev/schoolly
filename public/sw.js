@@ -5,13 +5,14 @@ self.addEventListener('fetch', event => {
   event.respondWith(fetch(event.request).catch(() => caches.match(event.request)));
 });
 
+// --- ТЕСТОВЫЙ КОД ---
 self.addEventListener('push', function(event) {
   const options = {
-    body: 'ТЕСТ! Текст пришел!',
+    body: 'ЭТО ТЕСТОВЫЙ ТЕКСТ! Если ты это видишь, значит всё работает!',
     icon: '/schoolly/public/icon.svg',
     vibrate: [200, 100, 200]
   };
   event.waitUntil(
-    self.registration.showNotification('Schoolly', options)
+    self.registration.showNotification('Schoolly ТЕСТ', options)
   );
 });
