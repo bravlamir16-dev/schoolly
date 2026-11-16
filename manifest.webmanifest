@@ -1,0 +1,9 @@
+{
+  "name": "Schoolly — школьный дневник",
+  "short_name": "Schoolly",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f6fc",
+  "theme_color": "#7067f0",
+  "icons": [{"src":"./icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
