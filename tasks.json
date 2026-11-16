@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "test-schoolly",
+    "name": "Тест уведомления",
+    "subject": "Математика",
+    "priority": "normal",
+    "description": "Проверка ntfy",
+    "dueDate": "2026-11-16",
+    "dueTime": "23:22",
+    "done": false,
+    "reminders": ["1min"]
+  }
+]
